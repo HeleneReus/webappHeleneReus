@@ -15,7 +15,7 @@ function App() {
       <Card titel={"React"} link={"https://react.dev/"} logo={reactLogo} />
       <Card titel={"Vite"} link={"https://vitejs.dev/"} logo={viteLogo} />
 
-      <Hello name={"World"} frage={"wie gehts?"} />
+      <Hello name={"World"} frage={"wie gehts????"} />
       <Hello name={"Earth"} />
       <Hello name={"Saturn"} />
       <div>
@@ -44,3 +44,6 @@ function App() {
 }
 
 export default App;
+
+/* hi*/
+/* test */
