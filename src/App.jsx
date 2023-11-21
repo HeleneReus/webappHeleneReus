@@ -6,14 +6,18 @@ import { Hello } from "./Hello";
 import { Card } from "./Card/Card";
 import { Hooks } from "./Hooks/Hooks";
 import { InputField } from "./InputField/InputField";
+import Navbar from "./Navbar";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Navbar></Navbar>
       <Hooks />
-      <Card titel={"React"} link={"https://react.dev/"} logo={reactLogo} />
-      <Card titel={"Vite"} link={"https://vitejs.dev/"} logo={viteLogo} />
+      <div className="cardContainer">
+        <Card titel={"React"} link={"https://react.dev/"} logo={reactLogo} />
+        <Card titel={"Vite"} link={"https://vitejs.dev/"} logo={viteLogo} />
+      </div>
 
       <Hello name={"World"} frage={"wie gehts????"} />
       <Hello name={"Earth"} />
@@ -44,8 +48,3 @@ function App() {
 }
 
 export default App;
-
-/* hi*/
-/* test */
-/* test 3 */
-/* test 4 */

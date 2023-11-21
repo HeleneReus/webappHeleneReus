@@ -3,6 +3,9 @@
   margin: 25px;
   border-radius: 10px;
   text-align: center;
+  max-width: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .cardItem:hover {

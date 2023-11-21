@@ -1,11 +1,11 @@
 .navbar {
   /* Quelle zur Hilfe: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
   background-color: beige;
-  top: 0;
   width: 100%;
-  position: fixed;
+  position: sticky;
   display: flex;
   justify-content: center;
+  overflow: visible;
 }
 
 .navbar ul {
