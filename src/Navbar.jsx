@@ -1,12 +1,23 @@
 import "./Navbar.css";
-export default function Navbar() {
+import { Link, Outlet } from "react-router-dom";
+
+export function Menu() {
   return (
-    <nav className="navbar">
-      <ul>
-        <li>Home</li>
-        <li>Explore</li>
-        <li>About us</li>
-      </ul>
-    </nav>
+    <>
+      <nav className="navbar">
+        <ul>
+          <li>
+            <Link to="/calculator">Verdoppler</Link>
+          </li>
+          <li>
+            <Link to="/links">Links</Link>
+          </li>
+          <li>
+            <Link tp="/helloworld">Hello World</Link>
+          </li>
+        </ul>
+        <Outlet />
+      </nav>
+    </>
   );
 }
