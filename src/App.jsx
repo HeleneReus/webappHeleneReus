@@ -7,6 +7,7 @@ import { Card } from "./Card/Card";
 import { Hooks } from "./Hooks/Hooks";
 import { InputField } from "./InputField/InputField";
 import Navbar from "./Navbar";
+import { InputCurrency } from "./InputCurrency";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -43,6 +44,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <InputField></InputField>
+      <InputCurrency></InputCurrency>
     </>
   );
 }

@@ -13,11 +13,17 @@ export function Menu() {
             <Link to="/links">Links</Link>
           </li>
           <li>
-            <Link tp="/helloworld">Hello World</Link>
+            <Link to="/helloworld">Hello World</Link>
+          </li>
+          <li>
+            <Link to="/vacation">Vacation</Link>
+          </li>
+          <li>
+            <Link to="/currency">Währung</Link>
           </li>
         </ul>
-        <Outlet />
       </nav>
+      <Outlet />
     </>
   );
 }

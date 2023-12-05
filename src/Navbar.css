@@ -1,6 +1,6 @@
 .navbar {
   /* Quelle zur Hilfe: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
-  background-color: beige;
+  background-color: #f5f5dc;
   width: 100%;
   position: sticky;
   display: flex;

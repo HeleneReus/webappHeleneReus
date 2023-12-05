@@ -1,0 +1,16 @@
+.fullCard {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #fafaea;
+  margin: 2rem;
+  border: 1.5px solid black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Zentriert die Buttons horizontal */
+  margin-top: 8px; /* Füge nach Bedarf Abstand oben hinzu */
+}
